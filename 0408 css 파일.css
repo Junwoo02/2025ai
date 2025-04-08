@@ -1,0 +1,26 @@
+h1{
+    color: rgb(117, 192, 208);
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+p{
+    line-height: 50px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    text-shadow: 3px 2px 5px;
+    
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: decimal;
+}
+
+
