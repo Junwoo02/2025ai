@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4회차 실습2</title>
+</head>
+<body>
+    <style>
+        table {border-collapse: collapse;
+            border: 3px dotted black;
+        }
+        td {border-spacing: 0px;
+            border: 2px solid white;
+            text-align: center;
+        }
+    </style>
+    <table border="1px">
+        <caption>(caption태그 자리)table 태그 내부에 tr태그 넣고, tr 태그 내부에 td 태그 작성</caption>
+        <thead>
+            <tr>
+                <td style="background-color: pink;"colspan="4">(colspan=4)thead,tbody,tfoot사용할 것</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: pink;">border-collapse 적용하기</td>
+                <td style="background-color: aqua;">caption으로 표에 대한 설명 넣기</td>
+                <td style="background-color:greenyellow">colgroup 이용해 스타일 적용하기</td>
+                <td>colgroup 이용하여 각 칸의 width, 배경색 조절</td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;" colspan="2">(colspan=2)</td>
+                <td style="background-color:greenyellow" rowspan="2">(rowspan=2)</td>
+                <td rowspan="2">글씨 가운데 정렬 적용</td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">표 내부는 점선으로 테두리 적용</td>
+                <td style="background-color: aqua;">표 외부는 실선으로 테두리 적용</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td style="background-color: pink;"></td>
+                <th style="background-color:aqua">td 대신 th태그 사용한 자리</th>
+                <td style="background-color:greenyellow"></td>
+            </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>
