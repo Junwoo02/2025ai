@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6회차 실습</title>
+</head>
+<body>
+    <fieldset>
+        <legend>회원가입 페이지</legend>
+        <h3>로그인 정보</h3>
+        <label>ID 입력 <input type="text" placeholder="최대 10자"></label><br>
+        <label>PW 입력(필수)<input type="text" placeholder="영어,숫자 섞어서"></label><br>
+        <label>PW 입력확인(필수)<input type="text" placeholder="영어,숫자 섞어서"></label>
+
+        <h3>개인정보</h3>
+
+        <h4>주소</h4>
+        <label><input type="text"></label>
+
+        <h5>연령대</h5>
+        <label><input type="radio" name="연령대" value="10대"></label>
+        <label><input type="radio" name="연령대" value="20"></label>
+        <label><input type="radio" name="연령대" value=""></label>
+        <label><input type="radio" name="연령대" value=""></label>
+        <label><input type="radio" name="연령대" value=""></label>
+
+        <h4>성별</h4>
+        <label><input type="radio" name="성별" value="남">남</label>
+        <label><input type="radio" name="성별" value="여"></label>
+
+        <h4>취미</h4>
+        <label><input type="checkbox" name="취미" value="게임"></label>
+        <label><input type="checkbox" name="취미" value="유튜브"></label>
+        <label><input type="checkbox" name="취미" value="잉여짓"></label>
+        <label><input type="checkbox" name="취미" value="운동"></label>
+        <label><input type="checkbox" name="취미" value="독서"></label>
+        <label><input type="checkbox" name="취미" value="여행"></label>
+        <label><input type="checkbox" name="취미미" value="창작"></label>
+
+        <h4>이메일</h4>
+        <input type="email" name="email" placeholder="abcd@naver.com">
+
+        <h4>연락처</h4>
+        <input type="tel" placeholder="000-0000-0000">
+
+        <h4>생년월일</h4>
+        <input type="date" placeholder="연도-월-일"><br>
+
+        <label>키(최소130 최대195 기본150 단위5)<input type="range" min="0" max="100" step="1" value="50"></label>
+
+        <label>사진<button type="button">파일 선택</button></label> 선택된 파일 없음 <br>
+        <button type="button">회원 가입</button>
+        <button type="button">다시 입력</button>
+    </fieldset>
+</body>
+</html>
