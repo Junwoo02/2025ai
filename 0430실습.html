@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>4회차 실습3-BMI</title>
 </head>
 <body>
-    <h1 class="title">BMI 테스트</h1>
+    <h1>BMI 테스트</h1>
+    <h2>
+        몸무게 / (키*키) <br>
+        키는 m 단위 <br>
+        ex) 100 / (1.8 * 1.8)
+    </h2>
+        <label>키<input type="text" name="키"></label> <br> <br>
 
-        <label>키<input type="text"></label>
-
-        <label>체중<input type="text"></label><br>
+        <label>체중<input type="text" name="체중"></label> <br> <br>
 
         <button type="button">계산</button>
+
+        <h2>20 이상 24.9 이하의 경우 정상으로 간주</h2> <hr>
+
+        <h1>BMI 수치 NaN</h1>
+        <h1>비정상 범위</h1>
+
+        <script>
+            const 키선택 = document.querySelector('#username')
+            let 키 = 키선택.value;
+
+            const 체중선택 = document.querySelector('#username')
+            let 체중 = 체중선택.value;
+        </script>
 </body>
 </html>
